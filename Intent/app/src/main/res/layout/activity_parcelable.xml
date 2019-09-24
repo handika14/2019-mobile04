@@ -84,6 +84,7 @@
     </LinearLayout>
 
     <Button
+        android:onClick="handleParcelable"
         android:id="@+id/button_submit"
         android:text="@string/submit"
         android:layout_width="match_parent"
